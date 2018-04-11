@@ -16,7 +16,7 @@ suite('Generating mock data',()=>{
   })
 
   test('check if generate mock data works for objects', ()=>{
-    assert(Object.keys(generateMockData(schema, 5)).length === Object.keys(schema).length)
+    assert(Object.keys(generateMockData(schema[0], 5)).length === Object.keys(schema).length)
   })
 
 })
