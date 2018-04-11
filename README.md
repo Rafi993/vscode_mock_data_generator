@@ -1,4 +1,4 @@
-# mock-data-generator README
+# mock-data-generator
 
 Simple extension to generate mock data for emergency
 
